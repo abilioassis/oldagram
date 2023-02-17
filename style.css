@@ -1,0 +1,92 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 375px;
+  margin: 0 auto;
+  background: lightgray;
+}
+
+/* Typography */
+h1 {
+  font-size: 13px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* General classes */
+
+.bg-white {
+  background: white;
+}
+
+.container {
+  padding: 10px;
+}
+
+/* Layout */
+#top-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #ddd solid;
+}
+
+#top-header .logo {
+  width: 127px;
+}
+
+#top-header .user-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+article {
+  border-bottom: 1px solid #ddd;
+}
+
+article .container {
+  display: flex;
+  gap: 7px;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+}
+
+article .avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+article .post-img {
+  width: 100%;
+  display: block;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .icons {
+  display: flex;
+  gap: 20px;
+}
+
+footer img {
+  width: 24px;
+}
